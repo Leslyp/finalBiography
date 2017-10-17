@@ -1,0 +1,536 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+html, body, nav {
+  /* becomes the parent element */
+  position: relative; 
+  width: 100%; 
+  font-size: 18px;
+  font-family: Sans-Serif;
+  background-color: #F1F6FB;
+  /* em = relative to the font-size of the element (2em means 2 times the size of the current font) */
+  line-height: 1.4em;
+}
+
+/* create space for footer */
+main {
+  padding-bottom: 20%;
+}
+
+h1, .home h2 {
+	color: #36547D;
+}
+
+/* style bg banner pic in css */
+.banner {
+	background-image: url("../img/banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+	opacity: 0.8;
+}
+
+/* START STYLE FOR NAV BAR */
+ul.nav-bar {  
+  list-style-type: none;
+  background-color: #829AB2;
+  /* these keep nav on the top of the page, w/o blank space */
+  padding: 0;
+  margin: 0;
+  /* needed to display floated li's */
+  overflow: hidden;
+}
+
+/* made links float left to display as horizontal on desktop */
+.nav-bar li a {
+  float: left;
+  display: inline-block;
+  padding: 1% 5%;
+  text-decoration: none;
+  color: white;
+  /* make each of the links have the same height, so logo and hamburger icon don't mess up hover */
+  height: 24px;
+}
+
+/* style logo in nav bar */
+#logo {
+	color: white;
+  text-shadow: 2px 2px 1px #D49900;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+}
+
+/* style logo in nav bar */
+#logo a:hover {
+	background-color: #829AB2;
+	color: #FFB800;
+	text-shadow: none;
+}
+
+/* doesn't show hamburger icon on desktop */
+.nav-bar .home-icon {
+  display: none;
+  margin: 2%;
+}
+
+/* when hovered over links change the color */
+.nav-bar li a:hover {
+  background-color: #C1D4E8;
+}
+
+/* style selected nav li different color */
+.selected {
+  background-color: #36547D;
+}
+
+/* START HOME STYLES */
+.containHome {
+	margin: 5%;
+	position: relative;
+}
+
+/* create space btw text to make more readable */
+.containHome .home {
+	width: 55%;
+}
+
+.containHome div.home  {
+	display: inline-block;
+}
+
+/* style home pictures */
+#hidePictures img {
+	width: 40%;
+	height: 55%;
+	border-radius: 10px;
+	top: 5%;
+	right: 0;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+#hidePictures img.transparent {
+	opacity:0;
+}
+
+/* fix position of toggle text */
+#togglePic p{
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	cursor: pointer;
+	color: #FFB800;
+	padding: 2px;
+	border: 1px solid;
+	border-radius: 10px;
+}
+
+#togglePic p:hover {
+	background-color: white;
+}
+
+/* START BIOGRAPHY STYLES */
+.bio {
+	margin: 5%;
+}
+
+.bio h2 {
+	color: #835315;
+}
+
+.bio p {
+	width: 50%;
+}
+
+#tag-photo {
+	width: 20%;
+	height: 20%;
+	border-radius: 5%;
+}
+
+/* START RESUME STYLES */
+/* style my personal info */
+.personal-info {
+  text-align: center;
+}
+
+/* style name in fancy font */
+#resume-name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #36547D;
+  margin-bottom: 0;
+}
+
+.resume {
+  margin: 5%;
+  padding: 5px;
+  /* create solid border around main content */
+  border: 3px solid #36547D;
+  margin-bottom: 17%;
+  background-color: #FFFBF4;
+}
+
+.resume h2 {
+	color: #6A3B00;
+}
+
+.resume p {
+	margin: .5%;
+}
+
+.resume div {
+	margin: 2%;
+}
+
+/* style line break */
+.border, .border-footer {
+  border-bottom: 3px solid grey;
+  display: block;
+}
+
+#resumeLink {
+	text-decoration: none;
+}
+
+/* START STYLE FOR CODEPEN */
+.alltab{
+  margin: 5%;
+}
+
+.alltab li a {
+	text-decoration: none;
+	color: #835315;
+}
+
+.alltab section {
+	/* hide section content until its selected */
+  display: none;
+  border-top: 2px solid black;
+}
+
+.alltab section li {
+	margin: 3%;
+	list-style-type: none;
+}
+
+/* takes away the radio buttons next to labels */
+.alltab input {
+  display: none;
+}
+
+.tab-container label {
+  display: inline-block;
+	/* makes space between tabs and bottom border line */
+	margin-bottom: 1%;
+  padding: 14px;
+  width: 14%;
+  text-align: center;
+	/* targets the labels text color when not selected */
+  color: #468BBB;
+  border: 1px solid #468BBB;
+  background-color: #FFF7E0;
+  /*box-sizing: border-box;*/	
+}
+
+.alltab label:hover {
+  color: #896A43;
+  cursor: pointer;
+}
+
+/* targets all label elements placed immediately after input elements */
+.alltab input:checked + label {
+  color: #4E3515;
+  border: 2px solid #97773F;
+}
+
+/* targets every content id that comes before a tab id element,
+if they are clicked then diplay there content by marking them as checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6 {
+  display: block;
+}
+
+.alltab section h2 a:hover {
+	color: #D19700;
+}
+/*************** START CONTACT STYLE ***************/
+#container {
+  text-align: center;
+}
+
+#contactForm div {
+  text-align: center;
+  margin: 2%;
+}
+
+#contactForm label {
+  display: block;
+}
+
+#contactForm input, #textarea textarea{
+  width: 20%;
+}
+
+#submitBtn {
+	border-radius: 10px;
+}
+
+#submitBtn:hover {
+	color: white;
+	background-color: #829AB2;
+}
+
+/* style jquery validation errors */
+form .error {
+  color: #FFC000;
+}
+
+/* START FOOTER STYLE */
+footer {
+  background-color: #829AB2;
+  bottom: 0;
+  position: fixed;
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  line-height: .5em;
+}
+
+.containFooter .icons img{
+  width: 3%;
+  height: 3%;
+  margin: .5% 2%;
+  transition-duration: .3s;
+  border-radius: 25%;
+}
+
+.footerText {
+  font-size: 14px;
+  color: white;
+  margin: 0 2%; 
+}
+
+.containFooter .icons img:hover{
+  width: 4%;
+}
+
+/* MEDIA QUERY - mobile view change nav to toggle */
+@media screen and (max-width: 759px) { 
+  /* remove hover color on hamburger icon */
+  .nav-bar .home-icon a:hover {
+    background-color: transparent;
+  }
+
+  /* removing float left on mobile */
+  .nav-bar li {
+    float: none;
+  }
+  
+  /* removing display inline-block from mobile 
+   displays each link on a seperate line  */
+  .nav-bar li a {
+    display: block;
+  }
+  
+  /* show home icon and display on same line as name
+  when dropdown is hidden */
+ .nav-bar li.home-icon {
+    display: block;
+    float: right;
+  }
+  
+  /* show home icon on same line as my name
+  when dropdown is shown*/
+  .nav-bar.dropdown .home-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  } 
+  
+  /* used when dropdown is shown, 
+  li are shown as block */
+  .nav-bar.dropdown li, .nav-bar.dropdown li a {
+    display: block;
+    float: none;
+  }
+  
+  /* only show name and hamburger icon by default on mobile*/
+  .nav-bar li:not(:first-child) {
+    display: none;
+  }
+
+  .nav-bar li.home-icon {
+    display: block;
+    float: right;
+  }
+
+  .nav-bar.dropdown li {
+    display: block;
+    float: none;
+  }
+
+  /* li are shown as block*/
+  .nav-bar.dropdown li a {
+    display: block;
+    float: none;
+  }
+
+  /* make footer icons bigger when hover */
+  .containFooter .icons img:hover{
+    width: 9%;
+    height: 9%;
+  }
+
+  /* make icons smaller when view is under 800px */
+  .containFooter .icons a img{
+    width: 8%;
+    height: 8%;
+    margin: 0 15px; 
+  }
+
+  /* make footer text smaller when view is smaller */
+  footer .footerText  {
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.2em;
+  }
+
+  .containFooter {
+		margin: 2%;
+	}
+
+	/* increase space btw main and footer when view is smaller to see all content */
+	main {
+	  padding-bottom: 40%;
+	}
+
+	/* set min size for smaller view on bio picture */
+	#tag-photo {
+		width: 250px;
+		height: 200px;
+	}
+
+	/* style bg banner pic in css */
+	.banner {
+		background-image: url("../img/banner2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 50px;
+	}
+
+	.containHome .home {
+		width: 80%;
+	}
+
+	/* START STYLE FOR CODEPEN */
+	.tab-container label {
+	  padding: 18px;
+	  min-width: 20%;
+	  font-size: 12px;
+	}	
+
+	/* style home pictures */
+	#hidePictures img {
+		width: 80%;
+		height: 25%;
+		margin: 1% 4% 40% 0;
+	  top: 90%;
+		right: 50px;
+	}
+
+	/* fix position of toggle text */
+	#togglePic p{
+		right: 50%;
+	}
+
+	/* reduce margin on contact form when screen is smaller */
+  #container {
+    margin: 0%;
+  }
+
+  /* increase input size on contact form when view is smaller */
+  #contactForm input, #textarea textarea{
+	  width: 60%;
+	}
+}
+
+
+/* MEDIA QUERY - mobile view change nav to toggle */
+@media screen and (min-width: 760px) and (max-width: 1325px){ 
+  /* remove hover color on hamburger icon */
+  .nav-bar .home-icon a:hover {
+    background-color: transparent;
+  }
+
+  /* removing float left on mobile */
+  .nav-bar li {
+    float: none;
+  }
+  
+  /* removing display inline-block from mobile 
+   displays each link on a seperate line  */
+  .nav-bar li a {
+    display: block;
+  }
+  
+  /* show home icon and display on same line as name
+  when dropdown is hidden */
+ .nav-bar li.home-icon {
+    display: block;
+    float: right;
+  }
+  
+  /* show home icon on same line as my name
+  when dropdown is shown*/
+  .nav-bar.dropdown .home-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  } 
+  
+  /* used when dropdown is shown, 
+  li are shown as block */
+  .nav-bar.dropdown li, .nav-bar.dropdown li a {
+    display: block;
+    float: none;
+  }
+  
+  /* only show name and hamburger icon by default on mobile*/
+  .nav-bar li:not(:first-child) {
+    display: none;
+  }
+
+  .nav-bar li.home-icon {
+    display: block;
+    float: right;
+  }
+
+  .nav-bar.dropdown li {
+    display: block;
+    float: none;
+  }
+
+  /* li are shown as block*/
+  .nav-bar.dropdown li a {
+    display: block;
+    float: none;
+  }
+
+	/* set min size for smaller view on bio picture */
+	#tag-photo {
+		width: 250px;
+		height: 200px;
+	}
+
+	/* START STYLE FOR CODEPEN */
+	.tab-container label {
+	  padding: 16px;
+	  width: 11%;
+	}
+}
