@@ -17,17 +17,17 @@ main {
 }
 
 h1, .home h2 {
-	color: #36547D;
+  color: #36547D;
 }
 
 /* style bg banner pic in css */
 .banner {
-	background-image: url("../img/banner2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100px;
-	opacity: 0.8;
+  background-image: url("../img/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  opacity: 0.8;
 }
 
 /* START STYLE FOR NAV BAR */
@@ -54,7 +54,7 @@ ul.nav-bar {
 
 /* style logo in nav bar */
 #logo {
-	color: white;
+  color: white;
   text-shadow: 2px 2px 1px #D49900;
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
@@ -62,9 +62,9 @@ ul.nav-bar {
 
 /* style logo in nav bar */
 #logo a:hover {
-	background-color: #829AB2;
-	color: #FFB800;
-	text-shadow: none;
+  background-color: #829AB2;
+  color: #FFB800;
+  text-shadow: none;
 }
 
 /* doesn't show hamburger icon on desktop */
@@ -85,67 +85,67 @@ ul.nav-bar {
 
 /* START HOME STYLES */
 .containHome {
-	margin: 5%;
-	position: relative;
+  margin: 5%;
+  position: relative;
 }
 
 /* create space btw text to make more readable */
 .containHome .home {
-	width: 55%;
+  width: 55%;
 }
 
 .containHome div.home  {
-	display: inline-block;
+  display: inline-block;
 }
 
 /* style home pictures */
 #hidePictures img {
-	width: 40%;
-	height: 55%;
-	border-radius: 10px;
-	top: 5%;
-	right: 0;
+  width: 40%;
+  height: 55%;
+  border-radius: 10px;
+  top: 5%;
+  right: 0;
   position: absolute;
   transition: opacity 1s ease-in-out;
 }
 
 #hidePictures img.transparent {
-	opacity:0;
+  opacity:0;
 }
 
 /* fix position of toggle text */
 #togglePic p{
-	position: absolute;
-	display: inline-block;
-	right: 0;
-	cursor: pointer;
-	color: #FFB800;
-	padding: 2px;
-	border: 1px solid;
-	border-radius: 10px;
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  cursor: pointer;
+  color: #FFB800;
+  padding: 2px;
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 #togglePic p:hover {
-	background-color: white;
+  background-color: white;
 }
 
 /* START BIOGRAPHY STYLES */
 .bio {
-	margin: 5%;
+  margin: 5%;
 }
 
 .bio h2 {
-	color: #835315;
+  color: #835315;
 }
 
 .bio p {
-	width: 50%;
+  width: 50%;
 }
 
 #tag-photo {
-	width: 20%;
-	height: 20%;
-	border-radius: 5%;
+  width: 20%;
+  height: 20%;
+  border-radius: 5%;
 }
 
 /* START RESUME STYLES */
@@ -172,15 +172,15 @@ ul.nav-bar {
 }
 
 .resume h2 {
-	color: #6A3B00;
+  color: #6A3B00;
 }
 
 .resume p {
-	margin: .5%;
+  margin: .5%;
 }
 
 .resume div {
-	margin: 2%;
+  margin: 2%;
 }
 
 /* style line break */
@@ -190,7 +190,7 @@ ul.nav-bar {
 }
 
 #resumeLink {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* START STYLE FOR CODEPEN */
@@ -199,19 +199,19 @@ ul.nav-bar {
 }
 
 .alltab li a {
-	text-decoration: none;
-	color: #835315;
+  text-decoration: none;
+  color: #835315;
 }
 
 .alltab section {
-	/* hide section content until its selected */
+  /* hide section content until its selected */
   display: none;
   border-top: 2px solid black;
 }
 
 .alltab section li {
-	margin: 3%;
-	list-style-type: none;
+  margin: 3%;
+  list-style-type: none;
 }
 
 /* takes away the radio buttons next to labels */
@@ -221,16 +221,16 @@ ul.nav-bar {
 
 .tab-container label {
   display: inline-block;
-	/* makes space between tabs and bottom border line */
-	margin-bottom: 1%;
+  /* makes space between tabs and bottom border line */
+  margin-bottom: 1%;
   padding: 14px;
   width: 14%;
   text-align: center;
-	/* targets the labels text color when not selected */
+  /* targets the labels text color when not selected */
   color: #468BBB;
   border: 1px solid #468BBB;
   background-color: #FFF7E0;
-  /*box-sizing: border-box;*/	
+  /*box-sizing: border-box;*/ 
 }
 
 .alltab label:hover {
@@ -256,7 +256,7 @@ if they are clicked then diplay there content by marking them as checked */
 }
 
 .alltab section h2 a:hover {
-	color: #D19700;
+  color: #D19700;
 }
 /*************** START CONTACT STYLE ***************/
 #container {
@@ -277,12 +277,12 @@ if they are clicked then diplay there content by marking them as checked */
 }
 
 #submitBtn {
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 #submitBtn:hover {
-	color: white;
-	background-color: #829AB2;
+  color: white;
+  background-color: #829AB2;
 }
 
 /* style jquery validation errors */
@@ -401,63 +401,63 @@ footer {
   }
 
   .containFooter {
-		margin: 2%;
-	}
+    margin: 2%;
+  }
 
-	/* increase space btw main and footer when view is smaller to see all content */
-	main {
-	  padding-bottom: 40%;
-	}
+  /* increase space btw main and footer when view is smaller to see all content */
+  main {
+    padding-bottom: 40%;
+  }
 
-	/* set min size for smaller view on bio picture */
-	#tag-photo {
-		width: 250px;
-		height: 200px;
-	}
+  /* set min size for smaller view on bio picture */
+  #tag-photo {
+    width: 250px;
+    height: 200px;
+  }
 
-	/* style bg banner pic in css */
-	.banner {
-		background-image: url("../img/banner2.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		width: 100%;
-		height: 50px;
-	}
+  /* style bg banner pic in css */
+  .banner {
+    background-image: url("../img/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+  }
 
-	.containHome .home {
-		width: 80%;
-	}
+  .containHome .home {
+    width: 80%;
+  }
 
-	/* START STYLE FOR CODEPEN */
-	.tab-container label {
-	  padding: 18px;
-	  min-width: 20%;
-	  font-size: 12px;
-	}	
+  /* START STYLE FOR CODEPEN */
+  .tab-container label {
+    padding: 18px;
+    min-width: 20%;
+    font-size: 12px;
+  } 
 
-	/* style home pictures */
-	#hidePictures img {
-		width: 80%;
-		height: 25%;
-		margin: 1% 4% 40% 0;
-	  top: 90%;
-		right: 50px;
-	}
+  /* style home pictures */
+  #hidePictures img {
+    width: 80%;
+    height: 25%;
+    margin: 1% 4% 40% 0;
+    top: 90%;
+    right: 50px;
+  }
 
-	/* fix position of toggle text */
-	#togglePic p{
-		right: 50%;
-	}
+  /* fix position of toggle text */
+  #togglePic p{
+    right: 50%;
+  }
 
-	/* reduce margin on contact form when screen is smaller */
+  /* reduce margin on contact form when screen is smaller */
   #container {
     margin: 0%;
   }
 
   /* increase input size on contact form when view is smaller */
   #contactForm input, #textarea textarea{
-	  width: 60%;
-	}
+    width: 60%;
+  }
 }
 
 
@@ -522,15 +522,15 @@ footer {
     float: none;
   }
 
-	/* set min size for smaller view on bio picture */
-	#tag-photo {
-		width: 250px;
-		height: 200px;
-	}
+  /* set min size for smaller view on bio picture */
+  #tag-photo {
+    width: 250px;
+    height: 200px;
+  }
 
-	/* START STYLE FOR CODEPEN */
-	.tab-container label {
-	  padding: 16px;
-	  width: 11%;
-	}
+  /* START STYLE FOR CODEPEN */
+  .tab-container label {
+    padding: 16px;
+    width: 11%;
+  }
 }

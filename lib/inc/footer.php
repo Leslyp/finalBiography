@@ -16,13 +16,13 @@
 		<script 
 			src='./lib/js/jqueryValidate.js'>
 		</script>	
-<script type="text/javascript">
-	$(document).ready(function() {
-  $("#cf_onclick").click(function() {
-  $("#hidePictures img.top").toggleClass("transparent");
-});
-});
-</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			  $("#cf_onclick").click(function() {
+			  $("#hidePictures img.top").toggleClass("transparent");
+			});
+		});
+		</script>
 		
   </body>
 </html>

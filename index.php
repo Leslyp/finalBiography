@@ -32,13 +32,7 @@
 	  <img class="bottom" src="./lib/img/r2hClass.png" />
 	  <img class="top" src="./lib/img/r2hClass2.png" />
 	</div>
-
-	
-
-	<!-- <div id="homePictures">
-	  <img class="bottom" src="./lib/img/r2hClass.png" />
-	  <img class="top" src="./lib/img/r2hClass2.png" />
-	</div>	 -->   
+ 
 </main>
 
 

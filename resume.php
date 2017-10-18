@@ -66,7 +66,6 @@
     	<li>4.8 weighted</li>
     </ul>
   </div>
-
 </main>
 
 
