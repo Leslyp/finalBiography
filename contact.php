@@ -10,7 +10,7 @@
 		<div id="contactMessage">
 			<p>Contact me with any questions or concerns</p>
 		</div>
-		<form id="contactForm" action="showComments.php"  method="POST">	
+		<form id="contactForm" action="#"  method="POST">	
 		  <!-- name -->
 		  <div class="nameArea">
 		    <label for="firstName"><span>*</span>First Name:</label>
