@@ -88,6 +88,10 @@
           <h2><a href="http://lperez.road2hire.ninja/commentApp/" target="blank">Comment App</a></h2>
           <p>Build an application that allows you to comment and reply. Also be able to like and dislike the comments and replies.</p>
         </li>
+        <li>
+          <h2><a href="http://lperez.road2hire.ninja/guessinggame/" target="blank">Guessing Game</a></h2>
+          <p>Build an application that allows the user to choose a game type and guess a random number. The game should keep track of the number of guesses it takes the user to guess the right number and their highscore. Alert the user when they win and when they beat their highscore.</p>
+        </li>
       </ul>
     </section>
 
