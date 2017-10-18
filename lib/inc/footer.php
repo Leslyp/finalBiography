@@ -19,6 +19,7 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 			  $("#cf_onclick").click(function() {
+			  // this triggers the class transparent to style the id
 			  $("#hidePictures img.top").toggleClass("transparent");
 			});
 		});

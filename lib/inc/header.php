@@ -11,13 +11,11 @@
 		<title>Biography Project</title>
 		<link rel="stylesheet" type="text/css" href="./lib/css/style.css?v=<?php echo time(); ?>">
 		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-
 		<!-- jquery validation plugin -->
 		<script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
 		<script src="lib/js/form-validation.js?v=<?php echo time(); ?>"></script>
 		<script src="lib/js/functions.js?v=<?php echo time(); ?>"></script>
-		<!--put fonts in head so they load before js-->
 	</head>
 	<body>
 		<header>	
@@ -26,7 +24,7 @@
  				<div class="banner"></div>
  			</div> 
 	  	<nav>
-	     	 <!-- id is used for dropdown class in mobile -->
+	     	 <!-- id is used for jquery toggle function -->
 	     	<ul id="myNavBar" class="nav-bar">
           <li id="logo"><a href="index.php">Lesly Perez</a></li>
           <li><a class="<?php if ($section == "home") {echo "selected";} ?>" href="index.php">Home</a></li>

@@ -12,7 +12,7 @@
 
 	<div>
 		<h2>Childhood</h2>
-  	<p>As a child, I was very talkative and enjoyed drawing and playing outside. I loved school, poetry, and the football team the Panthers.</p>
+  	<p>As a child, I was very talkative and enjoyed drawing and playing outside. I loved school, poetry, and the football team the Panthers. </p>
 	</div>
   
 	<div>
@@ -35,16 +35,12 @@
 		<h2>Life Goals</h2>
     <ul>
    		<li>Getting a job as a software engineer</li>
-   		<li>Going to college</li>
+   		<li>Going to college to further my education</li>
   		<li>Being financially secure</li>
+  		<li>Enjoy what I do for a living</li>
     </ul>
 	</div>
 			 
 </main> 
-
-			
-
-
-
 
  <?php include("./lib/inc/footer.php"); ?>

@@ -111,10 +111,7 @@
     <section id="content6">
       <ul>
         <li>
-          
-        </li>
-        <li>
-          
+          <h2>Coming Soon</h2>
         </li>
       </ul>
     </section>

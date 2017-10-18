@@ -29,8 +29,8 @@
 	</div>
 
 	<div id="hidePictures" class="shadow">
-	  <img class="bottom" src="./lib/img/r2hClass.png" />
-	  <img class="top" src="./lib/img/r2hClass2.png" />
+	  <img class="bottom" src="./lib/img/r2hClass.png" alt="road2hire class" />
+	  <img class="top" src="./lib/img/r2hClass2.png" alt="road2hire class"/>
 	</div>
  
 </main>
