@@ -327,9 +327,10 @@ footer {
     background-color: transparent;
   }
 
-  /* removing float left on mobile */
-  .nav-bar li {
+  /* removing float left on mobile, except on logo */
+  .nav-bar li:not(:first-child) {
     float: none;
+    text-align: right;
   }
   
   /* removing display inline-block from mobile 
