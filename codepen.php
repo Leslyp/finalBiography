@@ -92,6 +92,10 @@
           <h2><a href="http://lperez.road2hire.ninja/guessinggame/" target="blank">Guessing Game</a></h2>
           <p>Build an application that allows the user to choose a game type and guess a random number. The game should keep track of the number of guesses it takes the user to guess the right number and their highscore. Alert the user when they win and when they beat their highscore.</p>
         </li>
+        <li>
+          <h2><a href="http://lperez.road2hire.ninja/teamsapp/" target="blank">Switch Teams App</a></h2>
+          <p>Create an app that allows you to dynamically add new players and place them on different teams. Also allow them to put the players back on an unassigned list.</p>
+        </li>
       </ul>
     </section>
 
@@ -105,6 +109,7 @@
           <h2><a href="http://lperez.road2hire.ninja/mysqlChallengesRepo/mysqlChallenges/challenge2.php" target="blank">Create Products Table</a></h2>
           <p>Create a MySQL table that holds a list of products (name, description, price, color). Create a form that allows users to select a color. When they submit the color choice, display all products that are that color. Bonus if you can dynamically generate the color choices in the form from all of the unique color options in the database.</p>
         </li>
+
       </ul>
     </section>
 
