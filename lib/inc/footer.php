@@ -7,7 +7,7 @@
 		  	</div>
 		  	<div class="footerText">
 		  		<!-- Disclaimer for photos -->
-			    <p class="disclaimer">Disclaimer: All graphics are used for educational purposes only, and not for profit, in accordance with the Fair Use Act. All trademarks, trade names, or logos mentioned or used are the property of their respective owners.</p>
+			    <p class="disclaimer">Disclaimer: All graphics are used for educational purposes only, and not for profit, in accordance with the Fair Use Act. All trademarks, trade names, or logos used are the property of their respective owners.</p>
 			  	<p class="disclaimer">&copy; <?= date('Y') ?> Lesly Perez</p>
 		  	</div>
 	  	</div>	  	
