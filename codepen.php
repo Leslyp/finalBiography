@@ -72,7 +72,7 @@
           <p>Using what you know about the box model and positioning, build out what you see in the image provided. The background color is #777. Add whatever text you want instead of the placeholders. Add an image for the "large box". Make sure the masthead sticks to the top of the page when you scroll down.</p>
         </li>
         <li>
-          <h2><a href="https://codepen.io/lesly2411/pen/LjyXGO?editors=1100" target="blank">Color Wheel</a></h2>
+          <h2><a href="https://codepen.io/lesly2411/pen/QMpeBm" target="blank">Color Wheel</a></h2>
           <p>Recreate the pie chart in the picture provided.</p>
         </li>
         <li>
