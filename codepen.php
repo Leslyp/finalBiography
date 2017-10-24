@@ -47,7 +47,7 @@
     </section>
 
     <section id="content2">
-      <ul>
+      <ul> 
 
         <li>
           <h2><a href="https://codepen.io/lesly2411/pen/MoMgPX" target="blank">Sentence Counter</a></h2>
@@ -90,11 +90,15 @@
         </li>
         <li>
           <h2><a href="http://lperez.road2hire.ninja/guessinggame/" target="blank">Guessing Game</a></h2>
-          <p>Build an application that allows the user to choose a game type and guess a random number. The game should keep track of the number of guesses it takes the user to guess the right number and their highscore. Alert the user when they win and when they beat their highscore.</p>
+          <p>Build an application that allows the user to choose a game type and guess a random number. The game should keep track of the number of guesses it takes the user to guess the right number and their high score. Alert the user when they win and when they beat their high score.</p>
         </li>
         <li>
           <h2><a href="http://lperez.road2hire.ninja/teamsapp/" target="blank">Switch Teams App</a></h2>
           <p>Create an app that allows you to dynamically add new players and place them on different teams. Also allow them to put the players back on an unassigned list.</p>
+        </li>
+        <li>
+          <h2><a href="http://lperez.road2hire.ninja/translatorapp/" target="blank">Translator App</a></h2>
+          <p>Create a vocabulary study app that allows the user to pick a language to translate to and from.</p>
         </li>
       </ul>
     </section>
@@ -102,8 +106,8 @@
     <section id="content5">
       <ul>
         <li>
-          <h2><a href="http://lperez.road2hire.ninja/phpFinal/phpFinal" target="blank">Ecommerce Website</a></h2>
-          <p>Create an ecommerce website by using PHP and a Mysql database. The products should be mainstream and professional. There should be a Home, Products, Products Details, Search, And Contact page. </p>
+          <h2><a href="http://lperez.road2hire.ninja/phpFinal/phpFinal" target="blank">E-commerce Website</a></h2>
+          <p>Create an e-commerce website by using PHP and a Mysql database. The products should be mainstream and professional. There should be a Home, Products, Products Details, Search, And Contact page. </p>
         </li>
         <li>
           <h2><a href="http://lperez.road2hire.ninja/mysqlChallengesRepo/mysqlChallenges/challenge2.php" target="blank">Create Products Table</a></h2>

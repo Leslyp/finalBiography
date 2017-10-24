@@ -43,7 +43,7 @@
 
     <ul>
     	<li>Learn new coding languages like HTML, CSS, PHP, and Javascript</li>
-    	<li>Work on my profressional development skills</li>
+    	<li>Work on my professional development skills</li>
     	<li>Focus on building team skills</li>
     </ul>
   </div>
