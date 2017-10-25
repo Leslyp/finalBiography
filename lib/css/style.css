@@ -542,3 +542,10 @@ footer {
     width: 11%;
   }
 }
+
+/* MEDIA QUERY - change position of toggle when view is over 1500px */
+@media screen and (min-width: 1500px){ 
+  #togglePic p{
+    position: relative;
+  }
+}
